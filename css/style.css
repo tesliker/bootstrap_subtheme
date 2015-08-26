@@ -48,7 +48,13 @@ transition:color 0.3s ease-in-out;
 
 
  /* End Basic Stlyes */
+ .fa {
+  text-decoration: none !important;
+ }
  
+ .fa:hover {
+  text-decoration: none !important;
+ }
  
  .icon-prev:before {
  font-size: 60px;;
@@ -404,15 +410,6 @@ margin-bottom: 0;
 padding-bottom: 10px;
 }
 
-.footer .btn { 
-background-color: #73afb6;
-color: #0b1d4d;
-}
-
-.footer .btn:hover { 
-background-color: #d0d0d0;
-}
-
 .footer .pane-content { 
 border-top: 1px solid rgba(255, 255, 255, 0.2);
 padding-top: 5px;
@@ -720,4 +717,9 @@ margin-top: 15px;
     width: 100%;
 }
 
+.ds-1col.view-mode-full .field-name-field-image {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
 
