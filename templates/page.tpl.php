@@ -74,35 +74,35 @@
  */
 ?>
 <div id="header-top" class="clearfix container">
-	<div class="row">
-		<div class="header-top-left col-sm-6">
-			<?php if (!empty($page['header_top_left'])): ?>
-			<?php print render($page['header_top_left']); ?>
+  <div class="row">
+    <div class="header-top-left col-sm-6">
+      <?php if (!empty($page['header_top_left'])): ?>
+      <?php print render($page['header_top_left']); ?>
             <?php endif; ?>
-		</div>
-		<div class="header-top-right col-sm-6">
-			<?php if (!empty($page['header_top_right'])): ?>
-			<?php print render($page['header_top_right']); ?>
+    </div>
+    <div class="header-top-right col-sm-6">
+      <?php if (!empty($page['header_top_right'])): ?>
+      <?php print render($page['header_top_right']); ?>
             <?php endif; ?>
-		</div>
-	</div>
+    </div>
+  </div>
 </div>
 
 <div class="<?php print $container_class; ?>">
   <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-  	<div class="row">
-  		<div class="branding-left col-lg-4">
-  			<?php if (!empty($page['branding_left'])): ?>
-  			<?php print render($page['branding_left']); ?>
+    <div class="row">
+      <div class="branding-left col-lg-4">
+        <?php if (!empty($page['branding_left'])): ?>
+        <?php print render($page['branding_left']); ?>
               <?php endif; ?>
-  		</div>
-  		<div class="branding-right col-lg-8">
-  			<?php if (!empty($page['branding_right'])): ?>
-  			<?php print render($page['branding_right']); ?>
+      </div>
+      <div class="branding-right col-lg-8">
+        <?php if (!empty($page['branding_right'])): ?>
+        <?php print render($page['branding_right']); ?>
               <?php endif; ?>
-  		</div>
-  	
-  	</div>
+      </div>
+    
+    </div>
 
 
     <div class="row">
