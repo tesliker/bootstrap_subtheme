@@ -73,7 +73,7 @@
  * @ingroup templates
  */
 ?>
-<div id="header-top" class="clearfix container">
+<div id="header-top" class="clearfix <?php print $container_class; ?>">
   <div class="row">
     <div class="header-top-left col-sm-6">
       <?php if (!empty($page['header_top_left'])): ?>
@@ -88,7 +88,7 @@
   </div>
 </div>
 
-<div class="<?php print $container_class; ?>">
+<div class="page-wrapper <?php print $container_class; ?>">
   <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
     <div class="row">
       <div class="branding-left col-lg-4">
@@ -128,7 +128,7 @@
       </div>
 
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-        <div class="navbar-collapse collapse" id="navbar-collapse">
+        <div class="navbar-collapse collapse bootstrap-nav <?php print $container_class; ?>" id="navbar-collapse">
           <nav role="navigation">
             <?php if (!empty($primary_nav)): ?>
               <?php print render($primary_nav); ?>
