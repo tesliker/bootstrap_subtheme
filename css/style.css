@@ -197,8 +197,9 @@ nav li.first a {
 #header-top .row {
     margin-top: 5px;
 }
-/* branding right menu */
-
+#boxes-box-site_logo img {
+    width: 100%;
+}
 #block-superfish-1 li ul {
     background-color: #FFFFFF;
     background-image: none;
