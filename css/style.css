@@ -412,8 +412,53 @@ span.secondary {
 .link-lt:hover {
     color: #d6d6ce;
 }
-/* Mobile */
 
+/**
+ slideshow overlays 
+ */
+.slideshow-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    position: absolute;
+    color: #fff;
+}
+.slideshow-overlay.top-left {
+    bottom: auto;
+    right: auto;
+    left: 20px;
+    top: 20px;
+}
+.slideshow-overlay.top-right {
+    bottom: auto;
+    right: 20px;
+    left: auto;
+    top: 20px;
+}
+.slideshow-overlay.bottom-left {
+    bottom: 20px;
+    top: auto;
+    right: auto;
+    left: 20px;
+}
+.slideshow-overlay.bottom-right {
+    bottom: 20px;
+    right: 20px;
+    left: auto;
+    top: auto;
+}
+.slideshow-overlay h1 {
+    margin-top: 0;
+}
+.slideshow-overlay a {
+    color: #fff;
+}
+.slideshow-overlay a:hover {
+    color: #e0e0e0;
+}
+
+/**
+ Mobile 
+ */
 .mean-nav {
     background-color: #000000 !important;
     margin-top: 0 !important;
@@ -479,9 +524,20 @@ span.secondary {
     .navbar-nav {
         margin: 7.5px;
     }
+    .slideshow-overlay {
+        position: unset;
+    }
+    .slideshow-overlay a {
+        font-size: 14px;
+    }
+    .flex-control-nav.flex-control-paging {
+        display: none;
+    }
 }
-/** responsive video **/
 
+/**
+ responsive video
+ */
 .field-name-field-video iframe {
     width: 100%;
 }
@@ -544,8 +600,10 @@ iframe {
 #page-header {
     margin: 0 -15px 15px -15px;
 }
-/* Fixing bootstrap webform bug for email */
 
+/**
+ Fixing bootstrap webform bug for email
+ */
 .form-email {
     background-color: #fff;
     background-image: none;
@@ -562,49 +620,10 @@ iframe {
     vertical-align: middle;
     width: 100%;
 }
-/* slideshow overlays */
 
-.slideshow-overlay {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 15px;
-    position: absolute;
-    color: #fff;
-}
-.slideshow-overlay.top-left {
-    bottom: auto;
-    right: auto;
-    left: 20px;
-    top: 20px;
-}
-.slideshow-overlay.top-right {
-    bottom: auto;
-    right: 20px;
-    left: auto;
-    top: 20px;
-}
-.slideshow-overlay.bottom-left {
-    bottom: 20px;
-    top: auto;
-    right: auto;
-    left: 20px;
-}
-.slideshow-overlay.bottom-right {
-    bottom: 20px;
-    right: 20px;
-    left: auto;
-    top: auto;
-}
-.slideshow-overlay h1 {
-    margin-top: 0;
-}
-.slideshow-overlay a {
-    color: #fff;
-}
-.slideshow-overlay a:hover {
-    color: #e0e0e0;
-}
-/* front page links */
-
+/**
+ front page links
+ */
 .view-front-page-links {
     margin-top: 15px;
 }
