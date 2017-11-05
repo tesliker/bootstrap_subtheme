@@ -200,6 +200,33 @@ nav li.first a {
 #boxes-box-site_logo img {
     width: 100%;
 }
+#block-boxes-branding-cart {
+    margin-top: 24px;
+}
+#block-boxes-branding-cart .top-cart-title {
+    display: block;
+    padding: 10px;
+    float: right;
+}
+#block-boxes-branding-cart .top-cart-title a {
+    color: #000;
+}
+#block-boxes-branding-cart .cart-icon-wrapper {
+    background-color: #a79e65;
+    border-radius: 100%;
+    margin-right: 10px;
+    padding: 7px 11px;
+}
+#block-boxes-branding-cart .top-cart-title .fa-caret-down {
+    margin-left: 10px;
+}
+#block-commerce-cart-cart {
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    float: right;
+}
 #block-superfish-1 li ul {
     background-color: #FFFFFF;
     background-image: none;
