@@ -524,6 +524,9 @@ span.secondary {
     .navbar-nav {
         margin: 7.5px;
     }
+    .h1, h1 {
+        font-size: 14px;
+    }
     .slideshow-overlay {
         position: unset;
     }
